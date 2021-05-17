@@ -55,7 +55,5 @@ int main(int argc, char const *argv[])
 	printf("%s\n",buffer );
 	send(new_socket , hello , strlen(hello) , 0 );
 	printf("Hello message sent\n");
-  while(1)
-  {}
 	return 0;
 }
